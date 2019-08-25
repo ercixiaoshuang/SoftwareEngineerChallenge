@@ -3,7 +3,7 @@
 ## Architecture
 
 [Micro Service] —>[FluentD] —> [Data Lake: Apache Kafka] —>[ETL processing: Apache Flink]—> [Data Warehouse: Cassandra] ―>[User Application]
-file:///Users/xuxiaoshuang/git/SoftwareEngineerChallenge/Q2/design.png
+
 
 ### Micro Service
 Use a micro service like a dockerized application in Kubernetes cluster to let paypay users send their requests.
